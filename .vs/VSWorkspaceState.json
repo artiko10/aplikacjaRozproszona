@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DistributedApp",
+    "\\DistributedApp\\DistributedApp"
   ],
-  "SelectedNode": "\\C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy",
+  "SelectedNode": "\\DistributedApp\\DistributedApp\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

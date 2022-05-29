@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "l7Bw1HukR4snlDHscU+mGN50UlP5tUfkGnl4CKuBwUqqdGV6ivKHRnJOQFuKEF9yI3T0IdijLE2ILxOC+lGLHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\Serwer\\Serwer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Artur Gómułka\\.nuget\\packages\\supersimpletcp\\2.6.0.8\\supersimpletcp.2.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -34,13 +34,15 @@
             this.textBoxMessage = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.buttonSend = new System.Windows.Forms.Button();
-            this.buttonConnect = new System.Windows.Forms.Button();
+            this.buttonStart = new System.Windows.Forms.Button();
+            this.listBoxClient = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 28);
+            this.label1.Location = new System.Drawing.Point(242, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 0;
@@ -48,7 +50,7 @@
             // 
             // textBoxServer
             // 
-            this.textBoxServer.Location = new System.Drawing.Point(74, 25);
+            this.textBoxServer.Location = new System.Drawing.Point(293, 29);
             this.textBoxServer.Name = "textBoxServer";
             this.textBoxServer.Size = new System.Drawing.Size(279, 23);
             this.textBoxServer.TabIndex = 1;
@@ -56,17 +58,17 @@
             // 
             // textBoxList
             // 
-            this.textBoxList.Location = new System.Drawing.Point(74, 85);
+            this.textBoxList.Location = new System.Drawing.Point(293, 69);
             this.textBoxList.Multiline = true;
             this.textBoxList.Name = "textBoxList";
             this.textBoxList.ReadOnly = true;
             this.textBoxList.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textBoxList.Size = new System.Drawing.Size(279, 227);
+            this.textBoxList.Size = new System.Drawing.Size(279, 247);
             this.textBoxList.TabIndex = 2;
             // 
             // textBoxMessage
             // 
-            this.textBoxMessage.Location = new System.Drawing.Point(74, 318);
+            this.textBoxMessage.Location = new System.Drawing.Point(293, 322);
             this.textBoxMessage.Name = "textBoxMessage";
             this.textBoxMessage.Size = new System.Drawing.Size(279, 23);
             this.textBoxMessage.TabIndex = 4;
@@ -74,7 +76,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 321);
+            this.label2.Location = new System.Drawing.Point(234, 325);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 15);
             this.label2.TabIndex = 3;
@@ -82,28 +84,49 @@
             // 
             // buttonSend
             // 
-            this.buttonSend.Location = new System.Drawing.Point(359, 317);
+            this.buttonSend.Location = new System.Drawing.Point(578, 321);
             this.buttonSend.Name = "buttonSend";
             this.buttonSend.Size = new System.Drawing.Size(75, 23);
             this.buttonSend.TabIndex = 5;
             this.buttonSend.Text = "Send";
             this.buttonSend.UseVisualStyleBackColor = true;
             // 
-            // buttonConnect
+            // buttonStart
             // 
-            this.buttonConnect.Location = new System.Drawing.Point(359, 24);
-            this.buttonConnect.Name = "buttonConnect";
-            this.buttonConnect.Size = new System.Drawing.Size(75, 23);
-            this.buttonConnect.TabIndex = 6;
-            this.buttonConnect.Text = "Connect";
-            this.buttonConnect.UseVisualStyleBackColor = true;
+            this.buttonStart.Location = new System.Drawing.Point(578, 28);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(75, 23);
+            this.buttonStart.TabIndex = 6;
+            this.buttonStart.Text = "Start";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
+            // 
+            // listBoxClient
+            // 
+            this.listBoxClient.FormattingEnabled = true;
+            this.listBoxClient.ItemHeight = 15;
+            this.listBoxClient.Location = new System.Drawing.Point(46, 69);
+            this.listBoxClient.Name = "listBoxClient";
+            this.listBoxClient.Size = new System.Drawing.Size(177, 274);
+            this.listBoxClient.TabIndex = 7;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(46, 32);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(41, 15);
+            this.label3.TabIndex = 8;
+            this.label3.Text = "Client:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(476, 366);
-            this.Controls.Add(this.buttonConnect);
+            this.ClientSize = new System.Drawing.Size(693, 366);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.listBoxClient);
+            this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.buttonSend);
             this.Controls.Add(this.textBoxMessage);
             this.Controls.Add(this.label2);
@@ -112,7 +135,7 @@
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Client";
+            this.Text = "Serwer";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -126,6 +149,8 @@
         private TextBox textBoxMessage;
         private Label label2;
         private Button buttonSend;
-        private Button buttonConnect;
+        private Button buttonStart;
+        private ListBox listBoxClient;
+        private Label label3;
     }
 }

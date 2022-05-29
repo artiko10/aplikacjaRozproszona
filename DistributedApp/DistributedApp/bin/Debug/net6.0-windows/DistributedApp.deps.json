@@ -6,6 +6,14 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "DistributedApp/1.0.0": {
+        "dependencies": {
+          "SuperSimpleTcp": "2.6.0.8"
+        },
+        "runtime": {
+          "DistributedApp.dll": {}
+        }
+      },
       "SuperSimpleTcp/2.6.0.8": {
         "runtime": {
           "lib/net6.0/SuperSimpleTcp.dll": {
@@ -17,6 +25,11 @@
     }
   },
   "libraries": {
+    "DistributedApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "SuperSimpleTcp/2.6.0.8": {
       "type": "package",
       "serviceable": true,

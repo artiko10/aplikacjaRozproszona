@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FBWBPKJTIxNWMnYXvVA/kKUV5DhmlsRgPFKnbSDAhzze32j6KpYQNWMzLXgWzrbwBqxtMw7fdJTLc5tHjQJEfg==",
+  "dgSpecHash": "h4GxLm6RNrJ7GmCVVvKsPyLd4yCBI2ljTiZ7/fHPV4rdibby11ZmbxWPJqNaGPdvB6lqyA9qyjlZd2rvjYpxuw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Artur Gómułka\\.nuget\\packages\\supersimpletcp\\2.6.0.8\\supersimpletcp.2.6.0.8.nupkg.sha512"
+  ],
   "logs": []
 }

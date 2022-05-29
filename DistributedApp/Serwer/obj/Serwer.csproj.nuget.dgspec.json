@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj": {}
+    "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\Serwer\\Serwer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj": {
+    "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\Serwer\\Serwer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
-        "projectName": "DistributedApp",
-        "projectPath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
+        "projectUniqueName": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\Serwer\\Serwer.csproj",
+        "projectName": "Serwer",
+        "projectPath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\Serwer\\Serwer.csproj",
         "packagesPath": "C:\\Users\\Artur Gómułka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\obj\\",
+        "outputPath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\Serwer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Artur Gómułka\\AppData\\Roaming\\NuGet\\NuGet.Config",

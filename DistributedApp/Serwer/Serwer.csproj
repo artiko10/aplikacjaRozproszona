@@ -12,4 +12,10 @@
     <PackageReference Include="SuperSimpleTcp" Version="2.6.0.8" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>
