@@ -1,4 +1,4 @@
-﻿namespace DistributedApp
+﻿namespace Serwer
 {
     partial class Form1
     {
@@ -90,6 +90,7 @@
             this.buttonSend.TabIndex = 5;
             this.buttonSend.Text = "Send";
             this.buttonSend.UseVisualStyleBackColor = true;
+            this.buttonSend.Click += new System.EventHandler(this.buttonSend_Click);
             // 
             // buttonStart
             // 
@@ -136,6 +137,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Serwer";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
