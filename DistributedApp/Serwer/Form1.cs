@@ -15,9 +15,10 @@ namespace Serwer
         private void buttonStart_Click(object sender, EventArgs e)
         {
             server.Start();
-            textBoxList.Text += $"Connecting...{Environment.NewLine}";
-            buttonStart.Enabled = false;
+            textBoxList.Text += $"Starting the server...{Environment.NewLine}";
             buttonSend.Enabled = true;
+            buttonStart.Enabled = false;
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)

@@ -22,16 +22,10 @@ namespace DistributedApp
 
         private void buttonConnect_Click(object sender, EventArgs e)
         {
-            try
-            {
                 client.Connect();
                 buttonSend.Enabled = true;
                 buttonConnect.Enabled = false;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+           
         }
 
         private void buttonSend_Click(object sender, EventArgs e)
