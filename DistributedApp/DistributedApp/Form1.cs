@@ -22,9 +22,17 @@ namespace DistributedApp
 
         private void buttonConnect_Click(object sender, EventArgs e)
         {
+            try
+            {
                 client.Connect();
-                buttonSend.Enabled = true;
                 buttonConnect.Enabled = false;
+                buttonSend.Enabled = true;
+            }
+               
+                catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
            
         }
 
@@ -34,8 +42,8 @@ namespace DistributedApp
             {
                 if (!string.IsNullOrEmpty(textBoxMessage.Text))
                 {
+                    textBoxList.Text += $"Me (Client): {textBoxMessage.Text}{Environment.NewLine}";
                     client.Send(textBoxMessage.Text);
-                    textBoxList.Text += $"Me: {textBoxMessage.Text}{Environment.NewLine}";
                     textBoxMessage.Text = string.Empty;
                 }
             }

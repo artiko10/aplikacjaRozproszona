@@ -32,7 +32,6 @@
             this.textBoxServer = new System.Windows.Forms.TextBox();
             this.textBoxList = new System.Windows.Forms.TextBox();
             this.textBoxMessage = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.buttonSend = new System.Windows.Forms.Button();
             this.buttonStart = new System.Windows.Forms.Button();
             this.listBoxClient = new System.Windows.Forms.ListBox();
@@ -72,15 +71,6 @@
             this.textBoxMessage.Name = "textBoxMessage";
             this.textBoxMessage.Size = new System.Drawing.Size(279, 23);
             this.textBoxMessage.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(234, 325);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Message";
             // 
             // buttonSend
             // 
@@ -131,7 +121,6 @@
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.buttonSend);
             this.Controls.Add(this.textBoxMessage);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxList);
             this.Controls.Add(this.textBoxServer);
             this.Controls.Add(this.label1);
@@ -150,7 +139,6 @@
         private TextBox textBoxServer;
         private TextBox textBoxList;
         private TextBox textBoxMessage;
-        private Label label2;
         private Button buttonSend;
         private Button buttonStart;
         private ListBox listBoxClient;

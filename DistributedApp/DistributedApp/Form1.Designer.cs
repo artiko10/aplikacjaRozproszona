@@ -32,7 +32,6 @@
             this.textBoxServer = new System.Windows.Forms.TextBox();
             this.textBoxList = new System.Windows.Forms.TextBox();
             this.textBoxMessage = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.buttonSend = new System.Windows.Forms.Button();
             this.buttonConnect = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -71,15 +70,6 @@
             this.textBoxMessage.Size = new System.Drawing.Size(279, 23);
             this.textBoxMessage.TabIndex = 4;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(15, 321);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Message";
-            // 
             // buttonSend
             // 
             this.buttonSend.Location = new System.Drawing.Point(359, 317);
@@ -109,7 +99,6 @@
             this.Controls.Add(this.buttonConnect);
             this.Controls.Add(this.buttonSend);
             this.Controls.Add(this.textBoxMessage);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxList);
             this.Controls.Add(this.textBoxServer);
             this.Controls.Add(this.label1);
@@ -128,7 +117,6 @@
         private TextBox textBoxServer;
         private TextBox textBoxList;
         private TextBox textBoxMessage;
-        private Label label2;
         private Button buttonSend;
         private Button buttonConnect;
     }

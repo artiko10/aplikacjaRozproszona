@@ -16,26 +16,27 @@ namespace Serwer
         {
             server.Start();
             textBoxList.Text += $"Starting the server...{Environment.NewLine}";
-            buttonSend.Enabled = true;
             buttonStart.Enabled = false;
+            buttonSend.Enabled = true;
+          
             
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            buttonSend.Enabled = false;
             server = new SimpleTcpServer(textBoxServer.Text);
             server.Events.DataReceived += Events_DataReceived;
             server.Events.ClientDisconnected += Events_CLientDisconnected;
             server.Events.ClientConnected += Events_ClientConnected;
+            buttonSend.Enabled = false;
         }
 
         private void Events_ClientConnected(object? sender, ConnectionEventArgs e)
         {
             this.Invoke((MethodInvoker)delegate
             {
-                textBoxList.Text += $"{e.IpPort} join.{Environment.NewLine}";
                 listBoxClient.Items.Add(e.IpPort);
+                textBoxList.Text += $"{e.IpPort} join.{Environment.NewLine}";
             });
 
         }
@@ -58,15 +59,13 @@ namespace Serwer
 
         private void buttonSend_Click(object sender, EventArgs e)
         {
-            if (server.IsListening)
-            {
-                if (!string.IsNullOrEmpty(textBoxMessage.Text) && listBoxClient.SelectedItem != null)
+               
+            if (listBoxClient.SelectedItem != null)
                 {
                     server.Send(listBoxClient.SelectedItem.ToString(), textBoxMessage.Text);
                     textBoxList.Text += $"Server: {textBoxMessage.Text}{Environment.NewLine}";
                     textBoxMessage.Text = string.Empty;
                 }
-            }
         }
     }
 }
