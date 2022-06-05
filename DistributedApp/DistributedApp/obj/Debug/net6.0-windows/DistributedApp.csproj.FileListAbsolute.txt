@@ -17,3 +17,22 @@ C:\Users\Artur Gómułka\Desktop\artur\studia wsb\3 rok studiów\6 semestr\progr
 C:\Users\Artur Gómułka\Desktop\artur\studia wsb\3 rok studiów\6 semestr\programowaniezawansowane\Projekt końcowy\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\ref\DistributedApp.dll
 C:\Users\Artur Gómułka\Desktop\artur\studia wsb\3 rok studiów\6 semestr\programowaniezawansowane\Projekt końcowy\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\SuperSimpleTcp.dll
 C:\Users\Artur Gómułka\Desktop\artur\studia wsb\3 rok studiów\6 semestr\programowaniezawansowane\Projekt końcowy\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.csproj.CopyComplete
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\DistributedApp.exe
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\DistributedApp.deps.json
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\DistributedApp.runtimeconfig.json
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\DistributedApp.dll
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\DistributedApp.pdb
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\bin\Debug\net6.0-windows\SuperSimpleTcp.dll
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.csproj.AssemblyReference.cache
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.Form1.resources
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.csproj.GenerateResource.cache
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.AssemblyInfoInputs.cache
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.AssemblyInfo.cs
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.csproj.CoreCompileInputs.cache
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.csproj.CopyComplete
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.dll
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\refint\DistributedApp.dll
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.pdb
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\DistributedApp.genruntimeconfig.cache
+C:\Users\Konrad\Source\Repos\aplikacjaRozproszona\DistributedApp\DistributedApp\obj\Debug\net6.0-windows\ref\DistributedApp.dll

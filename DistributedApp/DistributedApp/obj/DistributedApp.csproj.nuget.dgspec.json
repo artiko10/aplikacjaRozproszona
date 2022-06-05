@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj": {}
+    "C:\\Users\\Konrad\\source\\repos\\aplikacjaRozproszona\\DistributedApp\\DistributedApp\\DistributedApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj": {
+    "C:\\Users\\Konrad\\source\\repos\\aplikacjaRozproszona\\DistributedApp\\DistributedApp\\DistributedApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
+        "projectUniqueName": "C:\\Users\\Konrad\\source\\repos\\aplikacjaRozproszona\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
         "projectName": "DistributedApp",
-        "projectPath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
-        "packagesPath": "C:\\Users\\Artur Gómułka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Artur Gómułka\\Desktop\\artur\\studia wsb\\3 rok studiów\\6 semestr\\programowaniezawansowane\\Projekt końcowy\\DistributedApp\\DistributedApp\\obj\\",
+        "projectPath": "C:\\Users\\Konrad\\source\\repos\\aplikacjaRozproszona\\DistributedApp\\DistributedApp\\DistributedApp.csproj",
+        "packagesPath": "C:\\Users\\Konrad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Konrad\\Source\\Repos\\aplikacjaRozproszona\\DistributedApp\\DistributedApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "S:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Artur Gómułka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Konrad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -36,6 +36,7 @@
             this.buttonStart = new System.Windows.Forms.Button();
             this.listBoxClient = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.buttonStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -110,12 +111,23 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Client:";
             // 
+            // buttonStop
+            // 
+            this.buttonStop.Location = new System.Drawing.Point(659, 28);
+            this.buttonStop.Name = "buttonStop";
+            this.buttonStop.Size = new System.Drawing.Size(75, 23);
+            this.buttonStop.TabIndex = 9;
+            this.buttonStop.Text = "Stop";
+            this.buttonStop.UseVisualStyleBackColor = true;
+            this.buttonStop.Click += new System.EventHandler(this.buttonStop_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Highlight;
-            this.ClientSize = new System.Drawing.Size(693, 366);
+            this.ClientSize = new System.Drawing.Size(749, 366);
+            this.Controls.Add(this.buttonStop);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.listBoxClient);
             this.Controls.Add(this.buttonStart);
@@ -143,5 +155,6 @@
         private Button buttonStart;
         private ListBox listBoxClient;
         private Label label3;
+        private Button buttonStop;
     }
 }

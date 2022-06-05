@@ -73,5 +73,19 @@ namespace DistributedApp
             });
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                client.Disconnect();
+                buttonConnect.Enabled = false;
+                buttonSend.Enabled = false;
+            }
+
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
     }
 }

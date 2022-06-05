@@ -18,8 +18,8 @@ namespace Serwer
             textBoxList.Text += $"Starting the server...{Environment.NewLine}";
             buttonStart.Enabled = false;
             buttonSend.Enabled = true;
-          
-            
+            buttonStop.Enabled = true;
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -29,6 +29,8 @@ namespace Serwer
             server.Events.ClientDisconnected += Events_CLientDisconnected;
             server.Events.ClientConnected += Events_ClientConnected;
             buttonSend.Enabled = false;
+            buttonStop.Enabled = false;
+
         }
 
         private void Events_ClientConnected(object? sender, ConnectionEventArgs e)
@@ -66,6 +68,15 @@ namespace Serwer
                     textBoxList.Text += $"Server: {textBoxMessage.Text}{Environment.NewLine}";
                     textBoxMessage.Text = string.Empty;
                 }
+        }
+
+        private void buttonStop_Click(object sender, EventArgs e)
+        {
+            server.Stop();
+            textBoxList.Text += $"Server won't let new connections...{Environment.NewLine}";
+            buttonStart.Enabled = true;
+            buttonSend.Enabled = true;
+            buttonStop.Enabled = false;
         }
     }
 }
