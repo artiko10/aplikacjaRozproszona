@@ -1,5 +1,5 @@
 # aplikacjaRozproszona
-Projekt informatyczny ,  stworzony na potrzeby zajęć: „Programowanie zaawansowane” wykonany przez: Artura Gomułkę, Konrada Cieślika i Magdalenę Kur.
+Projekt informatyczny ,  stworzony na potrzeby zajęć: „Programowanie zaawansowane” wykonany przez: Artura Gomułkę, Konrada Cieślaka i Magdalenę Kur.
 
 Jako przykład systemu rozproszonego napisany został „czat” używający SuperSimple TCP/IP klient serwer w języku C#.
 
